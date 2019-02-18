@@ -21,7 +21,7 @@
       <name>kubernetes</name>
       <defaultsProviderTemplate></defaultsProviderTemplate>
       <templates/>
-      <serverUrl>https://${KUBERNETES_MASTER}</serverUrl>
+      <serverUrl>https://kubernetes.default.svc/</serverUrl>
       <skipTlsVerify>false</skipTlsVerify>
       <namespace>${NAMESPACE}</namespace>
       <jenkinsUrl>http://${JENKINS_POD_IP}:8080</jenkinsUrl>
